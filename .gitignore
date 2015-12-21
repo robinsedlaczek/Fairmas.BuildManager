@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Fairmas.BuildManager.Backend/bin
+/Fairmas.BuildManager.Backend/obj/Debug
+*.user
+/packages
+*.suo
