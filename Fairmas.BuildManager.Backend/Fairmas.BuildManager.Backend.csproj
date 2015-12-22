@@ -81,7 +81,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Start\InstallerBuildConfigurations.xml" />
+    <Content Include="App_Start\BuildConfigurations.xml" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -91,7 +91,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\InstallerBuildConfiguration.cs" />
+    <Compile Include="BuildConfigurationManager.cs" />
+    <Compile Include="Models\BuildConfiguration.cs" />
+    <Compile Include="Models\BuildConfigurationParameterBase.cs" />
+    <Compile Include="Models\BuildConfigurationParameter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

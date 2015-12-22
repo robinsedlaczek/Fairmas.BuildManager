@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Fairmas.BuildManager.Backend.Models
 {
-    public class InstallerBuildConfiguration
+    public class BuildConfiguration
     {
         #region Public Properties
 
@@ -11,6 +12,8 @@ namespace Fairmas.BuildManager.Backend.Models
         public string Name { get; set; }
 
         public string Description { get; set; }
+
+        public IList<BuildConfigurationParameter<string>> Parameters { get; set; }
 
         #endregion
 
