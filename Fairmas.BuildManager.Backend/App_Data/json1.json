@@ -1,0 +1,63 @@
+[
+  {
+    "Id": "1b54ab78-6ad1-4cb9-b508-bf2b0d9812d1",
+    "Name": "FairBudget",
+    "Description": "Old generation of the Fairmas financial planning product suite (VB6).",
+    "Parameters": [ ]
+  },
+  {
+    "Id": "2b54ab78-6ad1-4cb9-b508-bf2b0d9812d2",
+    "Name": "FairMapping",
+    "Description": "Tool for FairBudget/FairPlanner (old generation) the imports actual data from account systems.",
+    "Parameters": [ ]
+  },
+  {
+    "Id": "3b54ab78-6ad1-4cb9-b508-bf2b0d9812d3",
+    "Name": "FairPayroll (MassiveRefac)",
+    "Description": "The Fairmas manning guide planning tool (improved version).",
+    "Parameters": [ ]
+  },
+  {
+    "Id": "4b54ab78-6ad1-4cb9-b508-bf2b0d9812d4",
+    "Name": "FairPayroll",
+    "Description": "The Fairmas manning guide planning tool.",
+    "Parameters": [ ]
+  },
+  {
+    "Id": "6b54ab78-6ad1-4cb9-b508-bf2b0d9812d6",
+    "Name": "[IPlan] CapexPlanner",
+    "Description": "The IHG financial planning tool for capital expenditures. Part of the IPlan product suite.",
+    "Parameters": [ ]
+  },
+  {
+    "Id": "7b54ab78-6ad1-4cb9-b508-bf2b0d9812d7",
+    "Name": "[IPlan] EFPM 5 Fiscal",
+    "Description": "The IHG Extended Forecast Planning Module (EFPM) for financial budget and forecast process planning (fiscal edition). Part of the IPlan product suite.",
+    "Parameters": [ ]
+  },
+  {
+    "Id": "8b54ab78-6ad1-4cb9-b508-bf2b0d9812d8",
+    "Name": "[IPlan] EFPM 5",
+    "Description": "The IHG Extended Forecast Planning Module (EFPM) for financial budget and forecast process planning. Part of the IPlan product suite.",
+    "Parameters": [ ]
+  },
+  {
+    "Id": "5b54ab78-6ad1-4cb9-b508-bf2b0d9812d5",
+    "Name": "FairTask",
+    "Description": "The Fairmas tool for scheduling tasks and workflows to provide automatic interfaces between the Fairmas systems and 3rd party tools.",
+    "Parameters": [
+      {
+        "Description": "If set to 'No', the installer filename will be marked as not for rollout. If set to 'Yes', the installer filename will not be marked.",
+        "Name": "Rollout",
+        "SelectedValues": [ "Yes" ],
+        "SourceValues": [ "Yes", "No" ]
+      },
+      {
+        "Description": "Select the FairTask plugins for which the version will be increased. The these plugins will be updated during installation.",
+        "Name": "UpdatePluginVersions",
+        "SelectedValues": [ "..\\..\\Current\\Sources\\FairTask.Plugins.Accor2BenchmarkImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.ArchiveExtractor\\Properties\\AssemblyInfo.cs" ],
+        "SourceValues": [ "..\\..\\Current\\Sources\\FairTask.Plugins.Accor2BenchmarkImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.ArchiveExtractor\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.BenchmarkFileImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.BrilliantDtwExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.CSVtoStandardPMSExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.EmailPickerPlugin\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FairBenchmarkPMSImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FairBudget2TrendbarometerExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FairBudgetPMSExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FairBudgetPMSImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FairBudgetRodeoImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FairBudgetToFairChainExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FairSalesExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FairSalesFileExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FairSalesImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FtpChecker\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FtpUploader\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FtpWatcher\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.GetZipMail\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.GFAD2FairPlannerExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.HogatexExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.IScheduleRosterDataExport\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.LiteWatcher\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.OldSihotFileExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.OperaCsvExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.OperaExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.OracleDumpImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.PickupPlugins\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\Fairtask.Plugins.PropertyCodeReplacer\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.ProtelExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.Rubicon2FairBudgetImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.Rubicon2FairRateImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.SapFileExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\Fairtask.Plugins.Sihot2BenchmarkImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.SihotPMSImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.SolMeliaImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.StrToBenchmarkDataImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.ThrowExceptionPlugin\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.Webupdater\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.ProxyConfigurator\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.FairBenchmarkFileImporterBase\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.APmsDataFileTransformer\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.StandardPMSConsolidator\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FairBudgetOtbSnapshotCreator\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.StandardBenchmarkCsvExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.IdeasToStandardPmsExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.BrilliantXlsToStandardXmlExpoter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.CorporateReportCreator\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.StarlightExporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.HQplus2FairBudgetImporter\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FairChainGCPReportGenerator\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.SftpWatcher\\Properties\\AssemblyInfo.cs", "..\\..\\Current\\Sources\\FairTask.Plugins.FolsToStandardPmsExporter\\Properties\\AssemblyInfo.cs" ]
+      }
+    ]
+  }
+]

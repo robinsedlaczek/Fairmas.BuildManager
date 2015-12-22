@@ -107,6 +107,7 @@
     <Content Include="BuildScripts\IPlan - CapexPlanner.bat" />
     <Content Include="BuildScripts\IPlan - EFPM 5 Fiscal.bat" />
     <Content Include="BuildScripts\IPlan - EFPM 5.bat" />
+    <Content Include="App_Data\json1.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,9 +115,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
